@@ -65,3 +65,11 @@ Permite subir los commits desde mi rama (branch) al repositorio remoto
     remote: Resolving deltas: 100% (1/1), completed with 1 local object.
     To https://github.com/Pedro-Cuevas/hello-world.git
     48fe276..3deb232  main -> main
+
+
+## git checkout -b feature/1
+
+git checkout permite cambiar entre ramas o restaurar los archivos del árbol de trabajo. -b feature/1 hará que se cree una nueva rama llamada feature/1
+
+    PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git checkout -b feature/1
+    Switched to a new branch 'feature/1'
