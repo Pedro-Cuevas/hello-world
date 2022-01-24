@@ -149,3 +149,68 @@ Permite actualizar el repositorio local
 PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git pull
 Already up to date.
 ```
+
+### git branch
+
+Este comando permite observar qué ramas tenemos`
+```powershell
+PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git branch
+* feature/1
+  main
+```
+
+### git diff
+
+Nos permite comparar ramas. Como tenemos 2 ramas, usaré `git diff main..feature/1`, que comparará los extremos de ambas ramas
+
+```powershell
+PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git diff main..feature/1
+diff --git a/RAMA.txt b/RAMA.txt
+new file mode 100644
+index 0000000..d142f44
+--- /dev/null
++++ b/RAMA.txt
+@@ -0,0 +1 @@
++prueba
+\ No newline at end of file
+diff --git a/comandos.md b/comandos.md
+index 1bb4944..43c24c9 100644
+--- a/comandos.md
++++ b/comandos.md
+@@ -1,151 +1,75 @@
+ # Práctica 1
+
+-### git clone
++## git clone
+
+ Permite clonar un repositorio existente en un directorio nuevo
+
+-```powershell
+-PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas> git clone https://github.com/Pedro-Cuevas/hello-world.git p1
+-Cloning into 'p1'...
+-remote: Enumerating objects: 38, done.
+-remote: Counting objects: 100% (38/38), done.
+-remote: Compressing objects: 100% (23/23), done.
+-Receiving objects:  50% (19/38)sed 31 (delta 0), pack-reused 0
+-Receiving objects: 100% (38/38), 58.97 KiB | 1.68 MiB/s, done.
+-Resolving deltas: 100% (1/1), done.
+-```
++    PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas> git clone https://github.com/Pedro-Cuevas/hello-world.git p1
++    Cloning into 'p1'...
++    remote: Enumerating objects: 38, done.
++    remote: Counting objects: 100% (38/38), done.
++    remote: Compressing objects: 100% (23/23), done.
++    Receiving objects:  50% (19/38)sed 31 (delta 0), pack-reused 0
++    Receiving objects: 100% (38/38), 58.97 KiB | 1.68 MiB/s, done.
++    Resolving deltas: 100% (1/1), done.
+
+-### git status
++## git status
+
+ Muestra el estado del directorio, comparando sus archivos con los de HEAD commit
+
+-```powershell
+-PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git status
+-On branch main
+:
+```
