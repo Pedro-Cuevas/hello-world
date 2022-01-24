@@ -140,3 +140,12 @@ Date:   Mon Dec 20 19:14:40 2021 +0100
 
     Initial commit
 ```
+
+### git pull
+
+Permite actualizar el repositorio local
+
+```powershell
+PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git pull
+Already up to date.
+```
