@@ -244,10 +244,21 @@ Removing comandos_REMOTE_1968.md
 
 ### git reset
 
-Permite deshacer cambios
+Permite deshacer cambios para volver a HEAD commit
 
 ```powershell
 PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git reset
 Unstaged changes after reset:
 M       comandos.md
+```
+
+### git revert
+
+Permite volever a un commit anterior. Como quería deshacer un merge, tuve que usar `-m` para especificar a qué rama volver
+
+```powershell
+PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git revert 6b9f512b9f6f601e0b14d7d315bc2150a0f0e690 -m 1
+[main 5c59bd1] Revert "ramas unidas"
+ 2 files changed, 1 insertion(+), 24 deletions(-)
+ delete mode 100644 RAMA.txt
 ```
