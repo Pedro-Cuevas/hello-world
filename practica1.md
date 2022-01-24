@@ -1,5 +1,7 @@
 # Práctica 1
 
+## Comandos git
+
 ### git clone
 
 Permite clonar un repositorio existente en un directorio nuevo
@@ -93,7 +95,7 @@ Your branch is up to date with 'origin/main'.
 ```
 ***
 
-## Anexo: otros comandos
+## Anexo: otros comandos git
 
 ### git log
 
@@ -262,3 +264,22 @@ PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telem�
  2 files changed, 1 insertion(+), 24 deletions(-)
  delete mode 100644 RAMA.txt
 ```
+***
+
+## Instalación de JDK 17, Maven e IntelliJ
+
+```shell
+C:\Users\prcue>mvn -version
+Apache Maven 3.8.4 (9b656c72d54e5bacbed989b64718c159fe39b537)
+Maven home: C:\apache-maven-3.8.4
+Java version: 17.0.2, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-17.0.2
+Default locale: es_ES, platform encoding: Cp1252
+OS name: "windows 11", version: "10.0", arch: "amd64", family: "windows"
+
+C:\Users\prcue>java -version
+java version "17.0.2" 2022-01-18 LTS
+Java(TM) SE Runtime Environment (build 17.0.2+8-LTS-86)
+Java HotSpot(TM) 64-Bit Server VM (build 17.0.2+8-LTS-86, mixed mode, sharing)
+```
+
+![captura_IntelliJ](image.png)
