@@ -61,6 +61,7 @@ create mode 100644 comandos.md
 
 Permite subir los commits desde mi rama (branch) al repositorio remoto
 
+<<<<<<< HEAD
 ```powershell
 PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git push
 info: please complete authentication in your browser...
@@ -251,3 +252,24 @@ PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telem�
 Unstaged changes after reset:
 M       comandos.md
 ```
+=======
+    PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git push
+    info: please complete authentication in your browser...
+    Enumerating objects: 4, done.
+    Counting objects: 100% (4/4), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (3/3), done.
+    Writing objects: 100% (3/3), 895 bytes | 895.00 KiB/s, done.
+    Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    To https://github.com/Pedro-Cuevas/hello-world.git
+    48fe276..3deb232  main -> main
+
+
+## git checkout -b feature/1
+
+git checkout permite cambiar entre ramas o restaurar los archivos del árbol de trabajo. -b feature/1 hará que se cree una nueva rama llamada feature/1
+
+    PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git checkout -b feature/1
+    Switched to a new branch 'feature/1'
+>>>>>>> feature/1
