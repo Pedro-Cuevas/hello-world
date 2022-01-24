@@ -214,3 +214,40 @@ index 1bb4944..43c24c9 100644
 -On branch main
 :
 ```
+
+### git clean
+
+Elimina archivos sin seguimiento. `-n` muestra qué archivos se eliminarán pero no hace nada. `-f` es necesario para eliminar
+
+```powershell
+PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git clean -n
+Would remove .comandos.md.swp
+Would remove .comandos_BASE_1968.md.swp
+Would remove .comandos_LOCAL_1968.md.swp
+Would remove .comandos_REMOTE_1968.md.swp
+Would remove RAMA.txt
+Would remove comandos_BACKUP_1968.md
+Would remove comandos_BASE_1968.md
+Would remove comandos_LOCAL_1968.md
+Would remove comandos_REMOTE_1968.md
+PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git clean -f
+Removing .comandos.md.swp
+Removing .comandos_BASE_1968.md.swp
+Removing .comandos_LOCAL_1968.md.swp
+Removing .comandos_REMOTE_1968.md.swp
+Removing RAMA.txt
+Removing comandos_BACKUP_1968.md
+Removing comandos_BASE_1968.md
+Removing comandos_LOCAL_1968.md
+Removing comandos_REMOTE_1968.md
+```
+
+### git reset
+
+Permite deshacer cambios
+
+```powershell
+PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git reset
+Unstaged changes after reset:
+M       comandos.md
+```
