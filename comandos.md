@@ -152,7 +152,7 @@ Already up to date.
 
 ### git branch
 
-Este comando permite observar qué ramas tenemos`
+Este comando permite observar qué ramas tenemos
 ```powershell
 PS C:\Users\prcue\OneDrive\Estudios\curso 3\Programación de Aplicaciones Telemáticas\p1> git branch
 * feature/1
